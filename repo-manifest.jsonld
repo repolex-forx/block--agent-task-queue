@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/agent-task-queue/commit/48d16da41f57801bbf9462ed2df923713978b6ae",
       "git:hexsha": "48d16da41f57801bbf9462ed2df923713978b6ae",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-09-30T19:16:47.050045+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/agent-task-queue/commit/02aefda760952ade8c248799922d69fd40c64a2d",
