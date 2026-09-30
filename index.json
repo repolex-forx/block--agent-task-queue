@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "agent-task-queue",
+  "versions": [
+    {
+      "commit": "48d16da41f57801bbf9462ed2df923713978b6ae",
+      "tag": "main",
+      "parsed_at": "2026-09-30T19:16:47.066463+00:00"
+    }
+  ]
+}
