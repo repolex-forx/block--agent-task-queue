@@ -1,0 +1,23 @@
+[2026-09-30T19:10:11Z] === ENRICH ITERATION 1 START | repo=block/agent-task-queue sha=48d16da4 ===
+[2026-09-30T19:10:11Z] [iter=1] PHASE START: enrich repo=block/agent-task-queue sha=48d16da4 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/48d16da4-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/48d16da41f57801bbf9462ed2df923713978b6ae.nq.gz
+[2026-09-30T19:10:18Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-30T19:10:22Z] [iter=1] AST store loaded triples=410655 load_secs=3 mem_mb=674 MB
+[2026-09-30T19:10:22Z] [iter=1] Step 2: Finding LSP targets mem_mb=674 MB
+[2026-09-30T19:10:22Z] [iter=1] LSP targets found call_sites=3402 imports=376 extends=1 implements=0 secs=1
+[2026-09-30T19:10:23Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=674 MB
+[2026-09-30T19:10:25Z] [iter=1] Position index built positions=25964 nodes_with_types=33325 secs=2 mem_mb=674 MB
+[2026-09-30T19:10:25Z] [iter=1] Step 3: Starting LSP resolution mem_mb=674 MB already_completed_types=[] already_completed_files=0
+[2026-09-30T19:10:25Z] [iter=1] Resolving target type target_type=call_site count=3402
+[2026-09-30T19:11:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.9 files_done=1 resolved=3 errors=149 current=desktop-sidecar/src/desktopMain/kotlin/com/block/agenttaskqueue/sidecar/QueueSnapshot.kt
+[2026-09-30T19:12:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=7 resolved=55 errors=499 current=intellij-plugin/src/main/kotlin/com/block/agenttaskqueue/settings/TaskQueueConfigurable.kt
+[2026-09-30T19:12:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=21 resolved=95 errors=700 current=desktop-sidecar/src/desktopTest/kotlin/com/block/agenttaskqueue/sidecar/TaskQueueDatabaseTest.kt
+[2026-09-30T19:13:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=37 resolved=511 errors=925 current=tests/test_queue.py
+[2026-09-30T19:14:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=39 resolved=793 errors=1066 current=integration_test.sh
+[2026-09-30T19:14:11Z] [iter=1] Target type resolved target_type=call_site resolved=793 errors=1114 secs=226 mem_mb=674 MB
+[2026-09-30T19:14:11Z] [iter=1] Resolving target type target_type=import_statement count=376
+[2026-09-30T19:14:29Z] [iter=1] Target type resolved target_type=import_statement resolved=107 errors=0 secs=18 mem_mb=674 MB
+[2026-09-30T19:14:29Z] [iter=1] Resolving target type target_type=extends_clause count=1
+[2026-09-30T19:14:31Z] [iter=1] Target type resolved target_type=extends_clause resolved=1 errors=0 secs=1 mem_mb=674 MB
+[2026-09-30T19:14:49Z] [iter=1] Step 5: Writing final enrichment file triples=22108
+[2026-09-30T19:14:49Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/48d16da41f57801bbf9462ed2df923713978b6ae.nq.gz size_kb=417
+[2026-09-30T19:14:49Z] [iter=1] PHASE END: enrich elapsed_s=278 elapsed_min=4.6 total_triples=22108

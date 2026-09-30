@@ -48,10 +48,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/48d16da41f57801bbf9462ed2df923713978b6ae/chunk-001.nq.gz",
       "repolex:graphFileSize": 6088473
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/48d16da41f57801bbf9462ed2df923713978b6ae.nq.gz",
+      "repolex:graphFileSize": 427348
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-09-30T19:03:48.886327+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/PrefectHQ/fastmcp",
+      "repolex:packageName": "fastmcp",
+      "git:hexsha": "ab935b3a5b0af35f4541fba1a0a54dfa8ab1344c",
+      "git:tagName": "v2.14.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-asyncio",
+      "repolex:packageName": "pytest-asyncio"
+    },
+    {
+      "@id": "https://repolex.ai/r/astral-sh/ruff",
+      "repolex:packageName": "ruff"
+    }
+  ]
 }

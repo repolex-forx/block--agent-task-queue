@@ -84,6 +84,47 @@
       ],
       "ast": [
         "aggregate/ast/48d16da41f57801bbf9462ed2df923713978b6ae/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/48d16da41f57801bbf9462ed2df923713978b6ae.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "fastmcp",
+          "ecosystem": "PYPI",
+          "version": "2.14.4",
+          "githubOrg": "PrefectHQ",
+          "githubRepo": "fastmcp",
+          "githubCommit": "ab935b3a5b0af35f4541fba1a0a54dfa8ab1344c",
+          "githubTag": "v2.14.4",
+          "githubUrl": "https://github.com/PrefectHQ/fastmcp",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "8.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-asyncio",
+          "ecosystem": "PYPI",
+          "version": "0.24",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-asyncio",
+          "githubUrl": "https://github.com/pytest-dev/pytest-asyncio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.8",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
