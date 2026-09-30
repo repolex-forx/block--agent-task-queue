@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/agent-task-queue/commit/48d16da41f57801bbf9462ed2df923713978b6ae",
       "git:hexsha": "48d16da41f57801bbf9462ed2df923713978b6ae",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     },
     {

@@ -1,0 +1,7 @@
+[2026-09-30T19:08:06Z] === AST ITERATION 1 START | repo=block/agent-task-queue sha=48d16da4 ===
+[2026-09-30T19:08:06Z] [iter=1] PHASE START: ast repo=block/agent-task-queue sha=48d16da4
+[2026-09-30T19:08:06Z] [iter=1] Building AST aggregate chunks
+[2026-09-30T19:08:31Z] [iter=1] AST chunks built count=1 triples=410655
+[2026-09-30T19:08:31Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/48d16da41f57801bbf9462ed2df923713978b6ae/.complete
+[2026-09-30T19:08:31Z] [iter=1] PHASE END: ast elapsed_s=25 elapsed_min=0.4
+[2026-09-30T19:08:31Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
